@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.tworldapplication.activity.home.HomeMainActivity">
+
+    <com.test.tworldapplication.view.ADView
+        android:id="@+id/adview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></com.test.tworldapplication.view.ADView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="快速通道"
+        android:gravity="center_horizontal"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recyclerview"
+        android:divider="#ffff"
+        android:dividerHeight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
